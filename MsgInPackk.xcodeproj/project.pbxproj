@@ -99,10 +99,16 @@
 		6D7155D7216B640B00D82391 /* MsgInPackk */ = {
 			isa = PBXGroup;
 			children = (
+				6D71565E216BA4A500D82391 /* KeyedDecodingContainer.swift */,
+				6D715661216BA4A600D82391 /* MessagePackDecoder.swift */,
+				6D715660216BA4A600D82391 /* SingleValueDecodingContainer.swift */,
+				6D71565F216BA4A600D82391 /* UnkeyedDecodingContainer.swift */,
+				6D715659216BA47000D82391 /* KeyedEncodingContainer.swift */,
+				6D715656216BA47000D82391 /* MessagePackEncoder.swift */,
+				6D715658216BA47000D82391 /* SingleValueEncodingContainer.swift */,
+				6D715657216BA47000D82391 /* UnkeyedEncodingContainer.swift */,
 				6D715652216BA43F00D82391 /* AnyCodingKey.swift */,
 				6D715653216BA43F00D82391 /* FixedWidthInteger+Bytes.swift */,
-				6D715651216BA40500D82391 /* Encoder */,
-				6D715650216BA3FF00D82391 /* Decoder */,
 				6D7155D8216B640B00D82391 /* MsgInPackk.h */,
 				6D7155D9216B640B00D82391 /* Info.plist */,
 			);
@@ -117,28 +123,6 @@
 				6D71560D216B928500D82391 /* UIImageExtension.swift */,
 			);
 			path = MsgInPackkTests;
-			sourceTree = "<group>";
-		};
-		6D715650216BA3FF00D82391 /* Decoder */ = {
-			isa = PBXGroup;
-			children = (
-				6D71565E216BA4A500D82391 /* KeyedDecodingContainer.swift */,
-				6D715661216BA4A600D82391 /* MessagePackDecoder.swift */,
-				6D715660216BA4A600D82391 /* SingleValueDecodingContainer.swift */,
-				6D71565F216BA4A600D82391 /* UnkeyedDecodingContainer.swift */,
-			);
-			path = Decoder;
-			sourceTree = "<group>";
-		};
-		6D715651216BA40500D82391 /* Encoder */ = {
-			isa = PBXGroup;
-			children = (
-				6D715659216BA47000D82391 /* KeyedEncodingContainer.swift */,
-				6D715656216BA47000D82391 /* MessagePackEncoder.swift */,
-				6D715658216BA47000D82391 /* SingleValueEncodingContainer.swift */,
-				6D715657216BA47000D82391 /* UnkeyedEncodingContainer.swift */,
-			);
-			path = Encoder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
