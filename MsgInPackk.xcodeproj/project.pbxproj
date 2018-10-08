@@ -8,8 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		6D7155DF216B640C00D82391 /* MsgInPackk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D7155D5216B640B00D82391 /* MsgInPackk.framework */; };
-		6D7155E4216B640C00D82391 /* MsgInPackkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7155E3216B640C00D82391 /* MsgInPackkTests.swift */; };
 		6D7155E6216B640C00D82391 /* MsgInPackk.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D7155D8216B640B00D82391 /* MsgInPackk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D7155F5216B646600D82391 /* UnkeyedDecodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7155F1216B646600D82391 /* UnkeyedDecodingContainer.swift */; };
+		6D7155F6216B646600D82391 /* MessagePackDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7155F2216B646600D82391 /* MessagePackDecoder.swift */; };
+		6D7155F7216B646600D82391 /* SingleValueDecodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7155F3216B646600D82391 /* SingleValueDecodingContainer.swift */; };
+		6D7155F8216B646600D82391 /* KeyedDecodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7155F4216B646600D82391 /* KeyedDecodingContainer.swift */; };
+		6D7155FD216B647300D82391 /* UnkeyedEncodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7155F9216B647300D82391 /* UnkeyedEncodingContainer.swift */; };
+		6D7155FE216B647300D82391 /* KeyedEncodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7155FA216B647300D82391 /* KeyedEncodingContainer.swift */; };
+		6D7155FF216B647300D82391 /* MessagePackEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7155FB216B647300D82391 /* MessagePackEncoder.swift */; };
+		6D715600216B647300D82391 /* SingleValueEncodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7155FC216B647300D82391 /* SingleValueEncodingContainer.swift */; };
+		6D715603216B648200D82391 /* FixedWidthInteger+Bytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D715601216B648200D82391 /* FixedWidthInteger+Bytes.swift */; };
+		6D715604216B648200D82391 /* AnyCodingKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D715602216B648200D82391 /* AnyCodingKey.swift */; };
+		6D715608216B69A700D82391 /* MessagePackEncoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D715607216B69A700D82391 /* MessagePackEncoderTests.swift */; };
+		6D71560E216B928500D82391 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D71560D216B928500D82391 /* UIImageExtension.swift */; };
+		6D715610216B951800D82391 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 6D71560F216B951800D82391 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,8 +39,20 @@
 		6D7155D8216B640B00D82391 /* MsgInPackk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MsgInPackk.h; sourceTree = "<group>"; };
 		6D7155D9216B640B00D82391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D7155DE216B640C00D82391 /* MsgInPackkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MsgInPackkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D7155E3216B640C00D82391 /* MsgInPackkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MsgInPackkTests.swift; sourceTree = "<group>"; };
 		6D7155E5216B640C00D82391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D7155F1216B646600D82391 /* UnkeyedDecodingContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UnkeyedDecodingContainer.swift; path = ../../../../../../../Desktop/testMsgPack/testMsgPack/decoder/UnkeyedDecodingContainer.swift; sourceTree = "<group>"; };
+		6D7155F2216B646600D82391 /* MessagePackDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessagePackDecoder.swift; path = ../../../../../../../Desktop/testMsgPack/testMsgPack/decoder/MessagePackDecoder.swift; sourceTree = "<group>"; };
+		6D7155F3216B646600D82391 /* SingleValueDecodingContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SingleValueDecodingContainer.swift; path = ../../../../../../../Desktop/testMsgPack/testMsgPack/decoder/SingleValueDecodingContainer.swift; sourceTree = "<group>"; };
+		6D7155F4216B646600D82391 /* KeyedDecodingContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyedDecodingContainer.swift; path = ../../../../../../../Desktop/testMsgPack/testMsgPack/decoder/KeyedDecodingContainer.swift; sourceTree = "<group>"; };
+		6D7155F9216B647300D82391 /* UnkeyedEncodingContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UnkeyedEncodingContainer.swift; path = ../../../../../../../Desktop/testMsgPack/testMsgPack/encoder/UnkeyedEncodingContainer.swift; sourceTree = "<group>"; };
+		6D7155FA216B647300D82391 /* KeyedEncodingContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyedEncodingContainer.swift; path = ../../../../../../../Desktop/testMsgPack/testMsgPack/encoder/KeyedEncodingContainer.swift; sourceTree = "<group>"; };
+		6D7155FB216B647300D82391 /* MessagePackEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessagePackEncoder.swift; path = ../../../../../../../Desktop/testMsgPack/testMsgPack/encoder/MessagePackEncoder.swift; sourceTree = "<group>"; };
+		6D7155FC216B647300D82391 /* SingleValueEncodingContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SingleValueEncodingContainer.swift; path = ../../../../../../../Desktop/testMsgPack/testMsgPack/encoder/SingleValueEncodingContainer.swift; sourceTree = "<group>"; };
+		6D715601216B648200D82391 /* FixedWidthInteger+Bytes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "FixedWidthInteger+Bytes.swift"; path = "../../../../../../Desktop/testMsgPack/testMsgPack/FixedWidthInteger+Bytes.swift"; sourceTree = "<group>"; };
+		6D715602216B648200D82391 /* AnyCodingKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnyCodingKey.swift; path = ../../../../../../Desktop/testMsgPack/testMsgPack/AnyCodingKey.swift; sourceTree = "<group>"; };
+		6D715607216B69A700D82391 /* MessagePackEncoderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagePackEncoderTests.swift; sourceTree = "<group>"; };
+		6D71560D216B928500D82391 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		6D71560F216B951800D82391 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +77,7 @@
 		6D7155CB216B640B00D82391 = {
 			isa = PBXGroup;
 			children = (
+				6D71560F216B951800D82391 /* .gitignore */,
 				6D7155D7216B640B00D82391 /* MsgInPackk */,
 				6D7155E2216B640C00D82391 /* MsgInPackkTests */,
 				6D7155D6216B640B00D82391 /* Products */,
@@ -71,6 +96,10 @@
 		6D7155D7216B640B00D82391 /* MsgInPackk */ = {
 			isa = PBXGroup;
 			children = (
+				6D715602216B648200D82391 /* AnyCodingKey.swift */,
+				6D715601216B648200D82391 /* FixedWidthInteger+Bytes.swift */,
+				6D7155F0216B644600D82391 /* Encoder */,
+				6D7155EF216B643F00D82391 /* Decoder */,
 				6D7155D8216B640B00D82391 /* MsgInPackk.h */,
 				6D7155D9216B640B00D82391 /* Info.plist */,
 			);
@@ -80,10 +109,33 @@
 		6D7155E2216B640C00D82391 /* MsgInPackkTests */ = {
 			isa = PBXGroup;
 			children = (
-				6D7155E3216B640C00D82391 /* MsgInPackkTests.swift */,
 				6D7155E5216B640C00D82391 /* Info.plist */,
+				6D715607216B69A700D82391 /* MessagePackEncoderTests.swift */,
+				6D71560D216B928500D82391 /* UIImageExtension.swift */,
 			);
 			path = MsgInPackkTests;
+			sourceTree = "<group>";
+		};
+		6D7155EF216B643F00D82391 /* Decoder */ = {
+			isa = PBXGroup;
+			children = (
+				6D7155F4216B646600D82391 /* KeyedDecodingContainer.swift */,
+				6D7155F2216B646600D82391 /* MessagePackDecoder.swift */,
+				6D7155F3216B646600D82391 /* SingleValueDecodingContainer.swift */,
+				6D7155F1216B646600D82391 /* UnkeyedDecodingContainer.swift */,
+			);
+			path = Decoder;
+			sourceTree = "<group>";
+		};
+		6D7155F0216B644600D82391 /* Encoder */ = {
+			isa = PBXGroup;
+			children = (
+				6D7155FA216B647300D82391 /* KeyedEncodingContainer.swift */,
+				6D7155FB216B647300D82391 /* MessagePackEncoder.swift */,
+				6D7155FC216B647300D82391 /* SingleValueEncodingContainer.swift */,
+				6D7155F9216B647300D82391 /* UnkeyedEncodingContainer.swift */,
+			);
+			path = Encoder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +200,7 @@
 				TargetAttributes = {
 					6D7155D4216B640B00D82391 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					6D7155DD216B640C00D82391 = {
 						CreatedOnToolsVersion = 10.1;
@@ -184,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D715610216B951800D82391 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +248,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D715604216B648200D82391 /* AnyCodingKey.swift in Sources */,
+				6D7155F5216B646600D82391 /* UnkeyedDecodingContainer.swift in Sources */,
+				6D7155F8216B646600D82391 /* KeyedDecodingContainer.swift in Sources */,
+				6D7155FF216B647300D82391 /* MessagePackEncoder.swift in Sources */,
+				6D7155F6216B646600D82391 /* MessagePackDecoder.swift in Sources */,
+				6D7155FD216B647300D82391 /* UnkeyedEncodingContainer.swift in Sources */,
+				6D7155F7216B646600D82391 /* SingleValueDecodingContainer.swift in Sources */,
+				6D715600216B647300D82391 /* SingleValueEncodingContainer.swift in Sources */,
+				6D7155FE216B647300D82391 /* KeyedEncodingContainer.swift in Sources */,
+				6D715603216B648200D82391 /* FixedWidthInteger+Bytes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D7155E4216B640C00D82391 /* MsgInPackkTests.swift in Sources */,
+				6D71560E216B928500D82391 /* UIImageExtension.swift in Sources */,
+				6D715608216B69A700D82391 /* MessagePackEncoderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +406,7 @@
 		6D7155EA216B640C00D82391 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -350,6 +416,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = MsgInPackk/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,6 +425,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = it.enjoy.MsgInPackk;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -366,6 +434,7 @@
 		6D7155EB216B640C00D82391 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -375,6 +444,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = MsgInPackk/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -391,6 +461,7 @@
 		6D7155ED216B640C00D82391 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 658Z86GMMJ;
 				INFOPLIST_FILE = MsgInPackkTests/Info.plist;
@@ -409,6 +480,7 @@
 		6D7155EE216B640C00D82391 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 658Z86GMMJ;
 				INFOPLIST_FILE = MsgInPackkTests/Info.plist;
