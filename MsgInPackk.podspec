@@ -75,7 +75,7 @@ s.source = { :git => 'https://github.com/enricosecondulfo/MsgInPackk.git', :tag 
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "MsgInPackk"
+  s.source_files  = "MsgInPackk/**/*.swift"
 
   s.swift_version = "4.2"
 
